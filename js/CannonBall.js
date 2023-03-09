@@ -17,7 +17,8 @@ class CannonBall {
     velocity.mult(0.5);
     Matter.Body.setStatic(this.body, false);
     Matter.Body.setVelocity(this.body, {
-      x: velocity.x *(180/3.14), y: velocity.y * (180/3.14)});
+  
+    //Defina a velocidade
   }
 
   display() 
