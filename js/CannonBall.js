@@ -9,9 +9,7 @@ class CannonBall {
     this.image = loadImage("./assets/cannonball.png");
     World.add(world, this.body);
   }
-
-  shoot() {
-    var newAngle = cannon.angle - 28;
+//passo 2
     newAngle = newAngle *(3.14/180)
     var velocity = p5.Vector.fromAngle(newAngle);
     velocity.mult(0.5);
